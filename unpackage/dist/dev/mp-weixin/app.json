@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/catgory/catgory",
+    "pages/cart/cart",
+    "pages/profile/profile",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "蘑菇街",
+    "navigationBarBackgroundColor": "#ff8198",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#ff8198",
+    "color": "#000",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/home",
+        "iconPath": "static/img/home.svg",
+        "selectedIconPath": "static/img/home_active.svg"
+      },
+      {
+        "text": "分类",
+        "pagePath": "pages/catgory/catgory",
+        "iconPath": "static/img/category.svg",
+        "selectedIconPath": "static/img/category_active.svg"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/img/shopcart.svg",
+        "selectedIconPath": "static/img/shopcart_active.svg"
+      },
+      {
+        "text": "会员",
+        "pagePath": "pages/profile/profile",
+        "iconPath": "static/img/profile.svg",
+        "selectedIconPath": "static/img/profile_active.svg"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap45.json"
+}

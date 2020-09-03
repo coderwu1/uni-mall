@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "购物街",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "goods-list": "/components/goods/GoodsList"
+  }
+}
